@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  overflow: hidden;
+}
+
+.text_h3 {
+  margin: 0;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 130%;
+}
+
+.sidebar {
+  position: absolute;
+  width: 296px;
+  height: 1029px;
+  left: 0px;
+  background: #F9FBFC;
+  top: 0px;
+  border: 1px solid #DEDDDC;
+}
+
+.logo {
+  height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #DEDDDC;
+  background: #ffffff;
+}
+
+.item {
+  height: 68px;
+  display: flex;
+  padding: 0 38px;
+  align-items: center;
+  font-size: 14px;
+}
+
+.item-dd {
+  height: 68px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 38px;
+  align-items: center;
+  border-bottom: 1px solid #DEDDDC;
+  font-size: 16px;
+
+  font-weight: 600;
+}
+
+.searchbox {
+  position: absolute;
+  width: 724px;
+  height: 172px;
+  left: 506px;
+  top: 212px;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.search {
+
+  margin: 16px 0;
+  display: flex;
+}
+
+.chkbox {
+  display: flex;
+  align-items: center;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #231C16;
+}
+
+.chkbox input {
+  height: 16px;
+  width: 16px;
+}
+
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 49px;
+  background: #0EB198;
+  border-radius: 6px;
+  border: none;
+  margin-left: 20px;
+  padding: 13px 32px;
+  color: #ffffff;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  border: 2px solid #95A0A6;
+  font-size: 16px;
+  line-height: 130%;
+}
+
+.links {
+  margin: 24px 0;
+}
+
+.links a {
+  margin-right: 24px;
+  text-decoration: none;
+  color: #3B7DDD;
+  font-size: 14px;
+  font-family: 'Inter';
+}
+
+.searchbar {
+
+  font-family: 'Inter';
+  width: 580px;
+  height: 50px;
+  padding: 0 20px;
+  border: 1px solid #D9D9D9;
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.upload {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 10px;
+  gap: 6px;
+  position: absolute;
+  height: 32px;
+  right: 30px;
+  top: 20px;
+  background: transparent;
+  border: 1px solid #DCDEDE;
+  border-radius: 6px;
+}
+
+.upload span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+}
